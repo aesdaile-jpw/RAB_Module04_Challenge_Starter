@@ -61,12 +61,82 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap Blue_32 {
+        internal static byte[] Blue_16 {
+            get {
+                object obj = ResourceManager.GetObject("Blue_16", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Blue_32 {
             get {
                 object obj = ResourceManager.GetObject("Blue_32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Green_16 {
+            get {
+                object obj = ResourceManager.GetObject("Green_16", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Green_32 {
+            get {
+                object obj = ResourceManager.GetObject("Green_32", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Red_16 {
+            get {
+                object obj = ResourceManager.GetObject("Red_16", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Red_32 {
+            get {
+                object obj = ResourceManager.GetObject("Red_32", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Yellow_16 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow_16", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Yellow_32 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow_32", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }
