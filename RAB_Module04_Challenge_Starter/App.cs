@@ -103,9 +103,14 @@ namespace RAB_Module04_Challenge_Starter
 
             PushButton button1 = panel.AddItem(buttonData1) as PushButton;
             PushButton button2 = panel.AddItem(buttonData2) as PushButton;
+            button1.LargeImage = ConvertToImageSource(Properties.Resources.Blue_32);
+            button2.LargeImage = ConvertToImageSource(Properties.Resources.Red_32);
 
             // add stacked row
             panel.AddStackedItems(buttonData3,buttonData4,buttonData5);
+            buttonData3.Image = ConvertToImageSource(Properties.Resources.Yellow_16);
+            buttonData4.Image = ConvertToImageSource(Properties.Resources.Green_16);
+            buttonData5.Image = ConvertToImageSource(Properties.Resources.Red_16);
 
             // add slit button
             SplitButtonData splitButtonData = new SplitButtonData("SplitButton",
@@ -116,7 +121,7 @@ namespace RAB_Module04_Challenge_Starter
 
             PulldownButtonData pulldownButtonData = new PulldownButtonData("PulldownButton",
                 "Pulldown\rButton");
-            // pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.Blue_32);
+            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.Blue_32);
             PulldownButton pulldownButton = panel.AddItem(pulldownButtonData) as PulldownButton;
             pulldownButton.AddPushButton(buttonData8);
             pulldownButton.AddPushButton(buttonData9);
