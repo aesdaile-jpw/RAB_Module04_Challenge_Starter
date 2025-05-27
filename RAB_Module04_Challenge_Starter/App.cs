@@ -121,9 +121,13 @@ namespace RAB_Module04_Challenge_Starter
 
             PulldownButtonData pulldownButtonData = new PulldownButtonData("PulldownButton",
                 "Pulldown\rButton");
-            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.Blue_32);
+            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.Yellow_32);
             PulldownButton pulldownButton = panel.AddItem(pulldownButtonData) as PulldownButton;
             pulldownButton.AddPushButton(buttonData8);
+            pulldownButton.LargeImage = ConvertToImageSource(Properties.Resources.Blue_32);
+            pulldownButton.Image = ConvertToImageSource(Properties.Resources.Blue_16);
+            buttonData8.LargeImage = ConvertToImageSource(Properties.Resources.Yellow_32);
+            buttonData8.Image = ConvertToImageSource(Properties.Resources.Yellow_16);
             pulldownButton.AddPushButton(buttonData9);
             pulldownButton.AddPushButton(buttonData10);
 
